@@ -1,7 +1,8 @@
 # ------------------------------------------------------------
-# Listado de provincias españolas 2012.
+# Listado de provincias españolas 03/02/2015.
 #
 # Datos extraídos del INE (Instituo Nacional de Estadística).
+# http://www.ine.es/daco/daco42/codmun/cod_provincia.htm
 #
 # El campo id_provincia debería coincidir con los dos primeros dígitos del código postal
 # de la provincia. Los que tienen un dígito, añadir el 0 delante.
@@ -12,6 +13,7 @@
 #
 # Albert Lombarte
 # Twitter: @alombarte
+# Richard C. Hidalgo
 # ------------------------------------------------------------
 
 CREATE TABLE `provincias` (
@@ -36,7 +38,6 @@ VALUES
 	(11,'Cádiz'),
 	(39,'Cantabria'),
 	(12,'Castellón/Castelló'),
-	(51,'Ceuta'),
 	(13,'Ciudad Real'),
 	(14,'Córdoba'),
 	(15,'Coruña, A'),
@@ -53,7 +54,6 @@ VALUES
 	(25,'Lleida'),
 	(28,'Madrid'),
 	(29,'Málaga'),
-	(52,'Melilla'),
 	(30,'Murcia'),
 	(31,'Navarra'),
 	(32,'Ourense'),
@@ -72,4 +72,6 @@ VALUES
 	(46,'Valencia/València'),
 	(47,'Valladolid'),
 	(49,'Zamora'),
-	(50,'Zaragoza');
+	(50,'Zaragoza'),
+	(51,'Ceuta'),
+	(52,'Melilla');
